@@ -1,22 +1,25 @@
-#Akan Birthday Calculator
+# Akan Birthday Calculator
 
-##Project Description
+## Project Description
   This is a web-based calculator which calculates a client's Akan name based on which day of the week they were born.
 
-##Author Information
-  Created by Dawn(DawnDesign7 on Github), as an independent project assignment at Moringa School.
+## Author Information
+  Created by Dawn M. Ndemo (DawnDesign7 on Github), as an independent project assignment at Moringa School.
 
-##Setup Instructions
+## Setup Instructions
 git clone https://github.com/DawnDesign7/akan-birthday-calculator/
 
-##Technologies Used
+## Link to live site
+
+
+## Technologies Used
   HTML5
   CSS3
   Javascript
 
-##Contact Information
+## Contact Information
   dawnmoraa@yahoo.com
 
-##License and Copyright Information
+## License and Copyright Information
  (c) Dawn M. Ndemo, Moringa School
  Licensed under the [MIT License](LICENSE).
