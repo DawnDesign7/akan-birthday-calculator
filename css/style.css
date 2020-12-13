@@ -23,7 +23,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 18px;
+  font-size: 25px;
+  font-family: cursive, Times New Roman, Georgia, Garamond
+
 }
 
 img {
