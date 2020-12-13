@@ -4,6 +4,7 @@
   background: #e76f51;
   color: white;
   font-size: 30px;
+  box-shadow: 5px 10x;
 }
 body {
   background-color: white;
@@ -53,15 +54,34 @@ hr{
   padding: 25px;
   border: 2px solid #F4A261;
   background-color:#264653;
-  font: 20px;
+  font-size: 20px;
   color: white;
 }
+
+.content {
+  padding-bottom: 15px;
+}
+.container label{
+  display: block;
+}
+
+
 .submit {
   background-color: #4CAF50;
+  width: 100%;
   border: none;
   color: white;
   padding: 16px 32px;
   margin: 4px 2px;
   cursor: pointer;
   text-align: center;
+  font-size: 18px;
+}
+.results {
+  margin: 20px;
+  padding: 25px;
+  border: 2px solid #F4A261;
+  background-color:#264653;
+  font-size: 20px;
+  color: white;
 }
