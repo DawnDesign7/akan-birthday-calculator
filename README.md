@@ -10,7 +10,7 @@
 git clone https://github.com/DawnDesign7/akan-birthday-calculator/
 
 ## Link to live site
-https://dawndesign7.github.io/akan-birthday-calculator/index.html/
+https://dawndesign7.github.io/akan-birthday-calculator/index.html
 
 ## Technologies Used
   HTML5
