@@ -1,4 +1,4 @@
-//Function
+//array function
 function MakeArray(n) {
    this.length = n;
    for (var i = 1; i <=n; i++) {
@@ -6,7 +6,7 @@ function MakeArray(n) {
    }
 }
 
-//Weekdays Array
+//weekday array
 days = new MakeArray(7);
 days[0] = "Saturday"
 days[1] = "Sunday"
@@ -35,7 +35,7 @@ months[12] = "December"
 function compute(form) {
    var val1 = parseInt(form.day.value, 10)
    if ((val1 < 0) || (val1 > 31)) {
-      alert("Insert day between 1-31")
+      alert("insert day between 1-31")
    }
    var val2 = parseInt(form.month.value, 10)
    if ((val2 < 0) || (val2 > 12)) {
@@ -43,7 +43,8 @@ function compute(form) {
    }
    var val2x = parseInt(form.month.value, 10)
    var val3 = parseInt(form.year.value, 10)
-
+   if (val3 < 1900) {
+      alert("You're pretty old!")
    }
    if (val2 == 1) {
       val2x = 13;
@@ -62,4 +63,14 @@ function compute(form) {
    var val0 = val8-(val9*7)
    form.result1.value = months[val2]+" "+form.day.value +", "+form.year.value
    form.result2.value = days[val0]
- }
+}
+
+//gender and name conditionals
+
+var gender = gender(male || female)
+if ( female && days[o]) {
+  name=Akosua
+} else if (female && days[1]){
+  name=Adwoa
+}
+ input.result3 = name
