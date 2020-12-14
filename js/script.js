@@ -110,5 +110,3 @@ else if (gender="male" && days[5]){
 else if (gender="male" && days[6]){
   result3="Kwame"
 }
-
-div.result3.value = name
