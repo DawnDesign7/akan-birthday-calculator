@@ -65,12 +65,50 @@ function compute(form) {
    form.result2.value = days[val0]
 }
 
-//gender and name conditionals
+//gender and name conditions
 
-var gender = gender(male || female)
-if ( female && days[o]) {
-  name=Akosua
-} else if (female && days[1]){
-  name=Adwoa
+var gender = document.getElementsByName('gender').selectedIndex
+if ( gender="female" && days[0]) {
+  result3="Akosua"
+} else if (gender="female" && days[1]){
+  result3="Adwoa"
 }
- input.result3 = name
+ else if (gender="female "&& days[2]){
+  result3="Abenaa"
+}
+ else if (gender="female "&& days[3]){
+result3="Akua"
+}
+ else if (gender="female" && days[4]){
+  result3="Yaa"
+}
+else if (gender="female" && days[5]){
+  result3="Afua"
+}
+ else if (gender="female" && days[6]){
+  result3="Ama"
+}
+
+if ( gender="male" && days[0]) {
+  result3="Kwasi"
+}
+else if (gender="male" && days[1]){
+  result3="Kwadwo"
+}
+else if (gender="male" && days[2]){
+  result3="Kwabena"
+}
+else if (gender="male"&& days[3]){
+  result3="Kwaku"
+}
+else if (gender="male" && days[4]){
+  result3="Yaw"
+}
+else if (gender="male" && days[5]){
+  result3="Kofi"
+}
+else if (gender="male" && days[6]){
+  result3="Kwame"
+}
+
+div.result3.value = name
