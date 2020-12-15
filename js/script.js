@@ -1,4 +1,4 @@
-//array function
+//General Array Function
 function MakeArray(n) {
    this.length = n;
    for (var i = 1; i <=n; i++) {
@@ -6,7 +6,7 @@ function MakeArray(n) {
    }
 }
 
-//weekday array
+//Days of Week Array
 days = new MakeArray(7);
 days[0] = "Saturday"
 days[1] = "Sunday"
@@ -31,20 +31,32 @@ months[10] = "October"
 months[11] = "November"
 months[12] = "December"
 
-//Day of Week Function
+//male names
+let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+
+//female Names
+let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
+
+//Day of Week calculation
 function compute(form) {
    var val1 = parseInt(form.day.value, 10)
    if ((val1 < 0) || (val1 > 31)) {
-      alert("insert day between 1-31")
+      alert("Choose day between 1-31")
    }
    var val2 = parseInt(form.month.value, 10)
    if ((val2 < 0) || (val2 > 12)) {
-      alert("Insert month between 1-12")
+      alert("Choose month between 1-12")
    }
    var val2x = parseInt(form.month.value, 10)
    var val3 = parseInt(form.year.value, 10)
    if (val3 < 1900) {
-      alert("You're pretty old!")
+      alert("Error on year of birth!")
+   }
+   var gender = parseInt(form.gender.value);
+   if  (gender <=0 || gender >2) {
+     alert("Enter 1 for male, 2 for female!")
+
    }
    if (val2 == 1) {
       val2x = 13;
@@ -64,49 +76,12 @@ function compute(form) {
    form.result1.value = months[val2]+" "+form.day.value +", "+form.year.value
    form.result2.value = days[val0]
 }
+//gender
 
-//gender and name conditions
-
-var gender = document.getElementsByName('gender').selectedIndex
-if ( gender="female" && days[0]) {
-  result3="Akosua"
-} else if (gender="female" && days[1]){
-  result3="Adwoa"
-}
- else if (gender="female "&& days[2]){
-  result3="Abenaa"
-}
- else if (gender="female "&& days[3]){
-result3="Akua"
-}
- else if (gender="female" && days[4]){
-  result3="Yaa"
-}
-else if (gender="female" && days[5]){
-  result3="Afua"
-}
- else if (gender="female" && days[6]){
-  result3="Ama"
-}
-
-if ( gender="male" && days[0]) {
-  result3="Kwasi"
-}
-else if (gender="male" && days[1]){
-  result3="Kwadwo"
-}
-else if (gender="male" && days[2]){
-  result3="Kwabena"
-}
-else if (gender="male"&& days[3]){
-  result3="Kwaku"
-}
-else if (gender="male" && days[4]){
-  result3="Yaw"
-}
-else if (gender="male" && days[5]){
-  result3="Kofi"
-}
-else if (gender="male" && days[6]){
-  result3="Kwame"
-}
+  if (gender === 1 && result2=days[0]) {
+      akanName =
+      }
+      if (gender === 2) {
+          cloneList = femaleNames;
+      }
+  } else {
