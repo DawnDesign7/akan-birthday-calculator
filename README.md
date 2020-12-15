@@ -12,6 +12,11 @@ git clone https://github.com/DawnDesign7/akan-birthday-calculator/
 ## Link to live site
 https://dawndesign7.github.io/akan-birthday-calculator/
 
+## BDD
+1. Takes client's date of birth as DD/MM/YYYY
+2. Calculates client's weekday of birth
+3. Assigns weekday of birth an Akan name based on Gender. 
+
 ## Technologies Used
   HTML5
   CSS3
